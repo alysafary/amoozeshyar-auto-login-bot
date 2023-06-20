@@ -5,5 +5,5 @@ How to Use:
 To use the bot, after installing the required packages that are included in the requirements file, by entering the personal username and password in the login file then adding chrome browser to the system path and running the main file, the bot starts working. 
 
 Details:
-1. The bot uses an OCR engine with a very powerful API site to solve the captcha image.
-2. To facilitate obtaining the verification code that is sent in the igap system, the bot uses the Remote Debugger Address, which needs to be logged into the igap web messenger for the first time on port 9222 with the phone number associated with the account so that the bot can extract the code from the same port and account without the need for re-logging in.
+1. The bot uses an OCR engine API site to solve the captcha image.
+2. To facilitate obtaining the verification code that is sent in the igap system, the bot uses the Remote Debugger Address, which needs to be logged into the igap web messenger for the first time on port 9222 with the phone number associated with the account so that the bot can extract the code from the same port and account without the need for re-logging in each time .
