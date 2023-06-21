@@ -22,7 +22,6 @@ def login():
         "window.open('https://stdn.iau.ir/Student/Pages/acmstd/loginPage.jsp')")
     driver.switch_to.window(driver.window_handles[-1])
     original_window = driver.current_window_handle
-    # check if already logged in
     driver.switch_to.window(original_window)
 
     try:
