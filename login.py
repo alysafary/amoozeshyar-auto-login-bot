@@ -17,7 +17,6 @@ def login():
     chrome_options = Options()
     chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
     driver = webdriver.Chrome(service=service, options=chrome_options)
-    # navigate to the login page
     driver.execute_script(
         "window.open('https://stdn.iau.ir/Student/Pages/acmstd/loginPage.jsp')")
     driver.switch_to.window(driver.window_handles[-1])
